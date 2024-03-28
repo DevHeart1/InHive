@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% if title %}
+        <title>Inhive Project - {{ title }}</title>
+    {% else %}
+        <title>Inhive Project</title>
+    {% endif %}
+</head>
+<body>
+   {% block content %} {% endblock %}
+</body>
+</html>
